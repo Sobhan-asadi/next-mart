@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 export default function Navigation() {
   return (
-    <nav className="bg-primary fixed top-0 right-0 left-0 py-4 shadow-md">
+    <nav className="bg-primary fixed top-0 right-0 left-0 z-50 py-4 shadow-md">
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}

@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
       {/* main footer content */}
       <div className="mx-auto max-w-7xl py-16">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
+        <div className="grid grid-cols-1 gap-8 px-6 md:grid-cols-12">
           <div className="col-span-2 md:col-span-4">
             <Link href="/" className="mb-6 flex items-center">
               <div className="bg-honey text-primary mr-2 flex h-10 w-10 items-center justify-center rounded-full text-xl font-bold">
