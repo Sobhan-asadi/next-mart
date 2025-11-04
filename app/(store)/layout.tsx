@@ -8,6 +8,7 @@ export default function StorLayout({
   return (
     <div className="flex min-h-screen flex-col">
       <Navigation />
+      <div className="pt-24"></div>
       <main className="grow">{children}</main>
       <Footer />
     </div>

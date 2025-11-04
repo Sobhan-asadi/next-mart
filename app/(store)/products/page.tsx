@@ -18,7 +18,7 @@ export default function ProductsPage() {
         {categories.map((category) => (
           <Link
             key={category.slug}
-            href="products"
+            href={`/products/${category.slug}`}
             className="group relative overflow-hidden rounded-xl border-b-4 bg-white shadow-md transition-all hover:translate-y-[-5px] hover:shadow-lg"
             style={{ borderColor: category.color }}
           >
