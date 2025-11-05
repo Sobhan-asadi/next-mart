@@ -13,6 +13,15 @@ export default function ProductsPage() {
 
   return (
     <div className="mx-auto mb-16 max-w-7xl px-4 pt-24">
+      <div className="from-primary relative mb-12 overflow-hidden rounded-2xl bg-linear-to-r to-[#00798c] px-8 py-4 text-white">
+        <div className="relative z-10">
+          <h1 className="mb-3 text-4xl font-bold">Categorys</h1>
+          <p className="max-w-2xl text-lg text-white/80">
+            Welcome to our Featured Products section. Here, every product is a
+            triumph of design and performance.
+          </p>
+        </div>
+      </div>
       {/* Categories */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
